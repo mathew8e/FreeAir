@@ -13,13 +13,13 @@
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../Buy.html">Buy</a>
+                            <a class="nav-link active" href="../Buy.php">Buy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../About.html" tabindex="-1" aria-disabled="true">About</a>
+                            <a class="nav-link active" href="../About.php" tabindex="-1" aria-disabled="true">About</a>
                         </li>
                     </ul>
             </div>

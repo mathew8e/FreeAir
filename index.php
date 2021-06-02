@@ -2,21 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <title>FreeAir</title>
-        <style>
-            :root{
-                --backgroundlite: rgb(189, 200, 201);
-            }
-
-        </style>
         <link rel="stylesheet" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styleheader.css">
     </head>
     <body style="padding: 0px;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-lite px-4 headerlightchange">
+        <nav class="navbar navbar-expand-lg navbar-light px-4">
             <div class="container-fluid">
                 
-                    <a class="navbar-brand col py-4" href="#"><img src="img/airlogo.png" alt="" width="200vh"></a>
+                    <a class="navbar-brand col py-4" href="index.php"><img src="img/airlogo.png" alt="" width="200vh"></a>
                     
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">
@@ -24,10 +18,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Buy.html">Buy</a>
+                            <a class="nav-link active" href="Buy.php">Buy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="About.html" tabindex="-1" aria-disabled="true">About</a>
+                            <a class="nav-link active" href="About.php" tabindex="-1" aria-disabled="true">About</a>
                         </li>
                     </ul>
             </div>
@@ -40,7 +34,7 @@
                         <p class="display-5">Everyone can breathe</p> <p class="h5"> All the air that you need</p>
                     </div>
                         
-                     <a href="Buy.html" class="col btn my-2 mx-5 buttonbox" style="color: rgb(44, 44, 44);background-color: rgb(165, 230, 230);"><br><h3 style="padding-bottom: 20px;">Get free air</h3></a>
+                     <a href="Buy.php" class="col btn my-2 mx-5 buttonbox" style="color: rgb(44, 44, 44);background-color: rgb(165, 230, 230);"><br><h3 style="padding-bottom: 20px;">Get free air</h3></a>
                 
                 </div>
             </div>

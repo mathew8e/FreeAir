@@ -10,21 +10,21 @@
         </style>
     </head>
     <body style="padding: 0px;">
-        <nav class="navbar navbar-expand-lg navbar-light bg-lite px-4 headerlightchange">
+        <nav class="navbar navbar-expand-lg navbar-light px-4">
             <div class="container-fluid">
                 
-                    <a class="navbar-brand col py-4" href="index.html"><img src="img/airlogo.png" alt="" width="200vh"></a>
+                    <a class="navbar-brand col py-4" href="index.php"><img src="img/airlogo.png" alt="" width="200vh"></a>
                     
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Buy.html">Buy</a>
+                            <a class="nav-link active" href="Buy.php">Buy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="About.html" tabindex="-1" aria-disabled="true">About</a>
+                            <a class="nav-link active" href="About.php" tabindex="-1" aria-disabled="true">About</a>
                         </li>
                     </ul>
             </div>
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col">
                     <h1>Order some fresh free air</h1>
-                    <form action="php/buy.php" class="py-3" method="post" required>
+                    <form action="php/buyform.php" class="py-3" method="post" required>
                         <table>
                             <tr>
                                 <td>Jmeno </td>
@@ -69,6 +69,16 @@
                 </div>
             </div>
         </div>
+        <footer class="bg-light text-center text-dark">
+           <!-- insert social media -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: var(--backgroundlite)">
+              © 2021 Copyright:
+              Matew Bosak
+            </div>
+            <!-- Copyright -->
+          </footer>
     </body> 
 
 </html>

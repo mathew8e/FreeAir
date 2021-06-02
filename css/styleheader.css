@@ -16,3 +16,6 @@
 .headerlightchange{
     background-color: rgb(179, 179, 179);
 }
+:root{
+    --backgroundlite: rgb(189, 200, 201);
+}

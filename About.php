@@ -8,18 +8,18 @@
         <nav class="navbar navbar-expand-lg navbar-light px-4">
             <div class="container-fluid">
                 
-                    <a class="navbar-brand col py-4" href="index"><img src="img/airlogo.png" alt="" width="200vh"></a>
+                    <a class="navbar-brand col py-4" href="index.php"><img src="img/airlogo.png" alt="" width="200vh"></a>
                     
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Buy.html">Buy</a>
+                            <a class="nav-link active" href="Buy.php">Buy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="About.html" tabindex="-1" aria-disabled="true">About</a>
+                            <a class="nav-link active" href="About.php" tabindex="-1" aria-disabled="true">About</a>
                         </li>
                     </ul>
             </div>
@@ -34,5 +34,15 @@
                 
                 Aliquam erat volutpat. Fusce consectetuer risus a nunc. In rutrum. Mauris metus. Cras elementum. Etiam bibendum elit eget erat. Mauris metus. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Maecenas libero. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas libero. Aliquam erat volutpat. Integer in sapien. Integer tempor. Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed convallis magna eu sem. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. </p>
         </div>
+        <footer class="bg-light text-center text-dark" style="">
+           <!-- insert social media -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: var(--backgroundlite)">
+              © 2021 Copyright:
+              Matew Bosak
+            </div>
+            <!-- Copyright -->
+          </footer>
     </body> 
 </html>
