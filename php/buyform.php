@@ -42,7 +42,6 @@
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }
-    echo "";
 
     if(isset($_POST["koupit"])){
         $jmeno = $_POST["jmeno"];
