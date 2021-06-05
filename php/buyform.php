@@ -8,7 +8,7 @@
         <nav class="navbar navbar-expand-lg navbar-light px-4">
             <div class="container-fluid">
                 
-                    <a class="navbar-brand col py-4" href="index"><img src="../img/airlogo.png" alt="" width="200vh"></a>
+                    <a class="navbar-brand col py-4" href="index.php"><img src="../img/airlogo.png" alt="" width="200vh"></a>
                     
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">
@@ -31,7 +31,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "root";
-    $dbname = "seznam";
+    $dbname = "freeair";
     
     
     // Create connection

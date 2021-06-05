@@ -14,6 +14,10 @@
         </style>
     </head>
     <body>
+            <nav>
+               <a href="index.php">main site</a>
+            
+            </nav>
         <div class="container-fluid py-5">
             <h1 class="text-center">Admin page</h1>
         </div>
@@ -21,7 +25,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "root";
-    $dbname = "seznam";
+    $dbname = "freeair";
     
     
     // Create connection
@@ -64,17 +68,19 @@
     }
     
     vypis($conn, "SELECT * FROM nakup");
-    echo $_POST["vybratid"];
 
     if(isset($_POST["delsubmit"])){
-        $sqlreq = "DELETE * from nakup where id=".$_POST["vybratid"];
+        $sqlreq = "DELETE from `nakup` where `nakup`.`id`=".$_POST["vybratid"];
         $conn->query($sqlreq);
+        echo "<meta http-equiv='refresh' content='0'>";
     }
 ?>
-        <form action="" method="post" id="admin">
-            vyberte jakou polozku chcete odebrat <select name="vybratid" id="vybratid" form="admin"> <?php nameList($conn, "SELECT id FROM nakup") ?> </select>
-            <input type="submit" value="submit" name="delsubmit"> 
-        </form>
+        <div class="container">
+            <form action="" method="post" id="admin" class="py-5">
+                vyberte jakou polozku chcete odebrat podle id <select name="vybratid" id="vybratid" form="admin"> <?php nameList($conn, "SELECT id FROM nakup") ?> </select>
+                <input type="submit" value="submit" name="delsubmit"> 
+            </form>
+        </div>
         
     </body>
 </html>
