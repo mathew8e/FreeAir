@@ -27,7 +27,15 @@
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
     }
-    if (isset($_POST["rate"])){
-        echo "bruh";
+    if (isset($_POST["hodnocenisubmit"])){
+        $rate = $_POST["rate"];
+
+        $sql = "INSERT INTO `rating` (`id`, `rating`) VALUES (NULL, '$rate');";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "hodnocení bylo odesláno";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
     }
 ?>

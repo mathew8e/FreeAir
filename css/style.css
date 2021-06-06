@@ -1,3 +1,4 @@
+
 .rate {
     float: left;
     height: 46px;
@@ -7,6 +8,7 @@
     position:absolute;
     top:-9999px;
 }
+
 .rate:not(:checked) > label {
     float:right;
     width:1em;
@@ -16,6 +18,7 @@
     font-size:30px;
     color:#ccc;
 }
+
 .rate:not(:checked) > label:before {
     content: '★ ';
 }
@@ -26,6 +29,7 @@
 .rate:not(:checked) > label:hover ~ label {
     color: #deb217;  
 }
+
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
 .rate > input:checked ~ label:hover,
@@ -33,6 +37,7 @@
 .rate > label:hover ~ input:checked ~ label {
     color: #c59b08;
 }
+
 .buttonbox{
     box-shadow:
             0 2.8px 2.2px rgba(0, 0, 0, 0.034),
