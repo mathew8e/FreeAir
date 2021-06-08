@@ -3,12 +3,13 @@
         <title>Buy free air</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/styleheader.css">
+        <link rel="icon" type="image/png" href="./img/airlogofavicon.png">
     </head>
     <body style="padding: 0px;">
         <nav class="navbar navbar-expand-lg navbar-light px-4">
             <div class="container-fluid">
                 
-                    <a class="navbar-brand col py-4" href="index.php"><img src="../img/airlogo.png" alt="" width="200vh"></a>
+                    <a class="navbar-brand col py-4" href="../index.php"><img src="../img/airlogo.png" alt="" width="200vh"></a>
                     
                     <h2 class="text-center col">FreeAir.com</h2>
                     <ul class="navbar-nav nav justify-content-end col">

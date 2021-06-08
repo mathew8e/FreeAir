@@ -19,3 +19,10 @@
 :root{
     --backgroundlite: rgb(189, 200, 201);
 }
+.graybutton{
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px;
+}
